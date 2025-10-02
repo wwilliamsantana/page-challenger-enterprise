@@ -9,6 +9,7 @@
 body {
   background-color: #E2E8F0;
   height: 100vh;
+  font-family: "Alan Sans", sans-serif;
 }
 
 #container {
@@ -24,12 +25,16 @@ header {
 
 header #logo {
   width: 60px;
+  margin-top: -14px;
 }
 
 header nav {
   display: flex;
   gap: 28px;
   align-items: center;
+  padding: 14px 24px;
+  /* border-bottom: 1px solid black; */
+  box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -48,4 +53,8 @@ header nav ul li a {
   font-weight: bold;
   font-size: 14px;
   color: rgb(27, 27, 27);
+}
+
+header nav ul li a:hover {
+  color: rgb(105, 104, 104);
 }
