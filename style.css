@@ -32,6 +32,8 @@ header nav {
   align-items: center;
 }
 
+
+
 header nav ul {
   display: flex;
   gap: 44px;
@@ -44,5 +46,6 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   font-weight: bold;
+  font-size: 14px;
   color: rgb(27, 27, 27);
 }
