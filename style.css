@@ -2,8 +2,47 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
   background-color: #E2E8F0;
+  height: 100vh;
+}
+
+#container {
+  margin-inline: 3rem;
+  margin-top: 1.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #logo {
+  width: 60px;
+}
+
+header nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 44px;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(27, 27, 27);
 }
