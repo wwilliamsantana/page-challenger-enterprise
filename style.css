@@ -91,7 +91,7 @@ main {
 
 
 #container-about-enterprise button {
-  background-color: #b582e2;
+  background-color: #da6c13;
   padding: 16px 14px;
   border: none;
   outline: none;
@@ -99,7 +99,7 @@ main {
   color: white;
   font-weight: 400;
   font-size: 18px;
-  text-transform: uppercase;
+
 }
 
 
@@ -108,7 +108,7 @@ main {
   background-color: #f8f9fa;
   color: #495057;
   padding: 4rem 2rem;
-  font-family: 'Arial', sans-serif;
+
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
 }
@@ -145,6 +145,10 @@ main {
   margin-bottom: 0.75rem;
 }
 
+.footer-column ul li span {
+  font-weight: bold;
+}
+
 .footer-column ul li a {
   text-decoration: none;
   color: #495057;
@@ -164,7 +168,6 @@ main {
 .social-links li a {
   text-decoration: underline;
 }
-
 
 .footer-bottom {
   text-align: center;
