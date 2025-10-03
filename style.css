@@ -32,16 +32,15 @@ header nav {
   display: flex;
   gap: 28px;
   align-items: center;
-  padding: 14px 24px;
+  padding: 14px 80px;
   border-radius: 6px;
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
 }
 
 
-
 header nav ul {
   display: flex;
-  gap: 44px;
+  gap: 62px;
 }
 
 header nav ul li {
@@ -56,7 +55,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: rgb(105, 104, 104);
+  color: #6e390d;
 }
 
 main {
@@ -70,10 +69,13 @@ main {
 
 #container-titles {
   text-align: center;
-
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+#container-titles hr {
+  margin-block: 10px;
 }
 
 #container-image-home img {
@@ -85,8 +87,9 @@ main {
   flex-direction: column;
   align-items: center;
   width: 70%;
+  margin-top: 2rem;
 
-  gap: 3rem;
+  gap: 2rem;
 }
 
 
@@ -102,6 +105,7 @@ main {
 
 }
 
+/* FOOTER */
 
 .footer {
   margin-top: 2rem;
@@ -159,25 +163,28 @@ main {
   color: #007bff;
 }
 
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
 
-.social-links li {
-  display: inline-block;
-  margin-right: 1.5rem;
+.items-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .social-links li a {
   text-decoration: underline;
 }
 
-.footer-bottom {
-  text-align: center;
+.item .footer-bottom {
   padding-top: 2rem;
   border-top: 1px solid #dee2e6;
   margin-top: 2rem;
 }
 
-.footer-bottom p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: #6c757d;
+.footer-bottom {
+  text-align: center;
 }
