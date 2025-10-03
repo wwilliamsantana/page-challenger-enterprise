@@ -33,7 +33,7 @@ header nav {
   gap: 28px;
   align-items: center;
   padding: 14px 24px;
-  /* border-bottom: 1px solid black; */
+  border-radius: 6px;
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -57,4 +57,20 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: rgb(105, 104, 104);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+#container-titles {
+  text-align: center;
+
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
