@@ -65,7 +65,7 @@ main {
   align-items: center;
 
   flex-direction: column;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 
 #container-titles {
@@ -73,4 +73,31 @@ main {
 
   text-transform: uppercase;
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#container-image-home img {
+  width: 42rem;
+}
+
+#container-about-enterprise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+
+  gap: 3rem;
+}
+
+
+#container-about-enterprise button {
+  background-color: #b582e2;
+  padding: 16px 14px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
 }
