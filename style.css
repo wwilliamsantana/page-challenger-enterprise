@@ -101,3 +101,80 @@ main {
   font-size: 18px;
   text-transform: uppercase;
 }
+
+
+.footer {
+  margin-top: 2rem;
+  background-color: #f8f9fa;
+  color: #495057;
+  padding: 4rem 2rem;
+  font-family: 'Arial', sans-serif;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin-bottom: 2rem;
+}
+
+.footer-column h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #495057;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #007bff;
+}
+
+
+.social-links li {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+.social-links li a {
+  text-decoration: underline;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #dee2e6;
+  margin-top: 2rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
