@@ -7,14 +7,18 @@
 }
 
 body {
-  background-color: #E2E8F0;
-  height: 100vh;
+  background-color: #e2e8f0;
+  height: 100%;
   font-family: "Alan Sans", sans-serif;
+  margin: 0;
 }
 
 #container {
   margin-inline: 3rem;
   margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -36,7 +40,6 @@ header nav {
   border-radius: 6px;
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
 }
-
 
 header nav ul {
   display: flex;
@@ -65,6 +68,7 @@ main {
 
   flex-direction: column;
   margin-top: 2.5rem;
+  flex-grow: 1;
 }
 
 #container-titles {
@@ -92,7 +96,6 @@ main {
   gap: 2rem;
 }
 
-
 #container-about-enterprise button {
   background-color: #da6c13;
   padding: 16px 14px;
@@ -102,7 +105,6 @@ main {
   color: white;
   font-weight: 400;
   font-size: 18px;
-
 }
 
 /* FOOTER */
@@ -137,7 +139,6 @@ main {
   margin-bottom: 1rem;
   color: #343a40;
 }
-
 
 .footer-column ul {
   list-style: none;
@@ -187,4 +188,113 @@ main {
 
 .footer-bottom {
   text-align: center;
+}
+
+.about-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.about-container h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+.about-container h3:first-of-type {
+  margin-top: 0;
+}
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+.tech-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.tech-list li {
+  background-color: #e7e7e7;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.roadmap-item {
+  border-left: 3px solid #007bff;
+  padding-left: 1.5rem;
+}
+.roadmap-item h4 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.faq-container {
+  padding: 2rem;
+  width: 900px;
+  height: 400px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question::after {
+  content: "+";
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+details[open] .faq-question::after {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+details[open] .faq-answer {
+  max-height: 20rem;
 }
