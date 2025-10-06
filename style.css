@@ -298,3 +298,36 @@ details[open] .faq-question::after {
 details[open] .faq-answer {
   max-height: 20rem;
 }
+
+.title-integrants{
+  margin-bottom: 1rem;
+
+}
+
+
+#container-integrantes{
+  display: flex;
+  justify-content: center; 
+  gap: 30px;
+  align-items: center;
+  margin-block: 2rem;
+
+}
+
+.integrante{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.integrante img{
+  width: 200px;
+  border-radius: 100px;
+}
+
+.integrantes-info p{
+  font-weight: bold;
+  text-align: center;
+
+}
+
