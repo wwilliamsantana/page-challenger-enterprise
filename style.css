@@ -331,7 +331,10 @@ details[open] .faq-answer {
 
 }
 
-
+form{
+  margin-block: 2rem;
+  
+}
 #container-inputs{
   display: flex;
   flex-direction: column;
@@ -364,4 +367,25 @@ details[open] .faq-answer {
 #container-inputs textarea::placeholder{
   font-size: 14px;
 }
+
+form button{
+  margin-top: 20px;
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: none;
+  color:white;
+  background-color:#da6c13;
+  cursor:pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+form button:hover{
+  opacity: 0.6;
+  background-color: chartreuse;
+  transform: scale(1.05); 
+  
+}
+
+
+
 
