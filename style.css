@@ -331,3 +331,37 @@ details[open] .faq-answer {
 
 }
 
+
+#container-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+#container-inputs input, textarea{
+  border: none;
+  outline: none;
+
+}
+
+
+#container-inputs input{
+  padding: 8px 20px;
+  width: 400px;
+  border-radius: 25px;
+  
+}
+
+#container-inputs textarea{
+ resize: none;
+ height: 100px;
+ padding: 12px;
+ border-radius: 20px;
+ 
+}
+
+#container-inputs textarea::placeholder{
+  font-size: 14px;
+}
+
