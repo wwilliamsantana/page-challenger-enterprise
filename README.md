@@ -43,7 +43,7 @@ Para visualizar o projeto localmente, basta seguir os passos abaixo:
 
 2.  **Navegue até o diretório do projeto:**
     ```bash
-    cd .\https://github.com/wwilliamsantana/page-challenger-enterprise.git\
+    cd .\page-challenger-enterprise.git\
     ```
 
 3.  **Abra o arquivo `index.html` em seu navegador:**
