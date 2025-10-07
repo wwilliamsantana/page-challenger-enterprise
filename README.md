@@ -2,13 +2,17 @@
 
 # Projeto Turma do Bem 
 
-
-
-
-
 Este repositório contém o código-fonte para um projeto web da ONG **"Turma do Bem"**, desenvolvido como parte de uma iniciativa de estudos em Front-End Design Engineering. O site foi criado com o objetivo de apresentar a ONG de forma moderna e acolhedora, utilizando apenas **HTML** e **CSS** na primeira fase.
 
 O projeto é uma demonstração de como uma interface de usuário pode ser construída de forma estática, com foco no design e na organização do código.
+
+## Integrantes 
+#### Análise e desenvolvimento de sistemas - Turma 1TDSPB
+
+- Gabriela Harumi Takemoto (RM567927)
+- Ruan Lima da Silva (RM566719)
+- William Silva de Santana (RM568182)
+
 
 ## Estrutura do Projeto
 
