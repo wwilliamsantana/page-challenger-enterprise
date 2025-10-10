@@ -35,7 +35,7 @@ O site é composto pelas seguintes páginas:
 ## Tecnologias Utilizadas
 
 -   **HTML5**: Para estruturar o conteúdo e criar as páginas do site.
--   **CSS3**: Para estilizar e dar a identidade visual ao projeto, incluindo o uso de fontes e squircle.
+-   **CSS3**: Para estilizar e dar a identidade visual ao projeto, incluindo o uso de fontes.
 
 ## Como Rodar o Projeto
 
