@@ -73,13 +73,12 @@ Para visualizar o projeto localmente, basta seguir os passos abaixo:
 <img width="70%" alt="Screenshot 2025-10-06 at 22-20-37 ONG - Turma do bem" src="https://github.com/user-attachments/assets/c9190136-7438-4c73-ab6c-5685bde9250a" />
 
 ### Contatos
-<img width="70%" alt="Screenshot 2025-10-06 at 22-21-18 ONG - Turma do bem" src="https://github.com/user-attachments/assets/1a8aa85a-e0e4-451e-ac48-aaef08c27238" />
+<img width="70%" alt="Screenshot 2025-10-06 at 22-21-18 ONG - Turma do bem" src="https://github.com/user-attachments/assets/e8c8134e-8651-4e2f-9cda-3c4f30aedd19" />
 
 ### Responsividade 
 <img width="30%" alt="Screenshot 2025-10-09 at 22-20-46 ONG - Turma do bem" src="https://github.com/user-attachments/assets/ce91b618-d379-45fa-a8dc-de94b93453e9" />
 
 ## Roadmap Futuro
-
 
 
 O projeto está planejado para evoluir em sprints, conforme descrito na página "Sobre":
