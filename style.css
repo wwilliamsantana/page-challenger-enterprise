@@ -278,13 +278,13 @@ details[open] .faq-answer {
 
 .integrante img {
   width: 200px;
-  border-radius: 100px;
+  border-radius: 24px;
 }
 
 .integrantes-info p {
-  font-weight: bold;
+  font-weight: none;
   text-align: center;
-
+  
 }
 
 /* Página de CONTATOS */
