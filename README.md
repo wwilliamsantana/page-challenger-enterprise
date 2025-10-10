@@ -59,21 +59,24 @@ Para visualizar o projeto localmente, basta seguir os passos abaixo:
 
 ## Galeria de Fotos
  ### Página Inicial
-  
-   <img width="70%" alt="Screenshot 2025-10-06 at 22-15-30 ONG - Turma do bem" src="https://github.com/user-attachments/assets/0af9c611-8c91-44c0-8808-40b694ac8156" />
-  
+
+   <img width="70%" alt="Screenshot 2025-10-06 at 22-15-30 ONG - Turma do bem"  src="https://github.com/user-attachments/assets/ba34be44-26a9-4e87-a97d-02216b314aa1" />
+
  ### Sobre
-  <img width="70%" alt="Screenshot 2025-10-06 at 22-17-23 ONG - Turma do bem" src="https://github.com/user-attachments/assets/892af12a-471a-4a20-ad6a-965f4b7fb86a" />
+  <img width="70%" alt="Screenshot 2025-10-06 at 22-17-23 ONG - Turma do bem" src="https://github.com/user-attachments/assets/5dab72f0-dc09-474d-8b6b-ef4ed97c650c" />
 
 ### Integrantes
-<img width="70%" alt="Screenshot 2025-10-06 at 22-19-44 ONG - Turma do bem" src="https://github.com/user-attachments/assets/1c63a758-2deb-4a38-af66-b13000b2cbe3" />
+
+<img width="70%" alt="Screenshot 2025-10-06 at 22-19-44 ONG - Turma do bem"  src="https://github.com/user-attachments/assets/4ecef81f-d8ca-42ce-85d3-1e3c46e56881"  />
 
 ### FAQ
 <img width="70%" alt="Screenshot 2025-10-06 at 22-20-37 ONG - Turma do bem" src="https://github.com/user-attachments/assets/c9190136-7438-4c73-ab6c-5685bde9250a" />
 
 ### Contatos
-<img width="70%" alt="Screenshot 2025-10-06 at 22-21-18 ONG - Turma do bem" src="https://github.com/user-attachments/assets/ca2805f0-a957-4baa-8dd1-d76b0bbf98cc" />
+<img width="70%" alt="Screenshot 2025-10-06 at 22-21-18 ONG - Turma do bem" src="https://github.com/user-attachments/assets/1a8aa85a-e0e4-451e-ac48-aaef08c27238" />
 
+### Responsividade 
+<img width="30%" alt="Screenshot 2025-10-09 at 22-20-46 ONG - Turma do bem" src="https://github.com/user-attachments/assets/ce91b618-d379-45fa-a8dc-de94b93453e9" />
 
 ## Roadmap Futuro
 
