@@ -300,6 +300,14 @@ details[open] .faq-answer {
 
 /* Página de CONTATOS */
 
+.about-column{
+  width: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+
 form {
   margin-block: 2rem;
 
