@@ -36,11 +36,11 @@ header #logo {
 
 header nav {
   display: flex;
-  gap: 28px;
   align-items: center;
-  padding: 14px 80px;
+  padding: 14px 0.4%;
   border-radius: 6px;
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   transition: all 0.3s ease;
 }
 
@@ -60,7 +60,9 @@ header nav {
 
 header nav ul {
   display: flex;
-  gap: 62px;
+  width: 80%;
+  justify-content: space-around;
+  gap: 1.5rem;
 }
 
 header nav ul li {
@@ -70,15 +72,13 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: rgb(27, 27, 27);
 }
 
 header nav ul li a:hover {
   color: #e26b0a;
 }
-
-/* INDEX */
 
 main {
   display: flex;
@@ -125,7 +125,6 @@ main {
   font-weight: 400;
   font-size: 18px;
 }
-
 
 /* Página de SOBRE */
 
@@ -258,14 +257,12 @@ details[open] .faq-answer {
   font-weight: bold;
 }
 
-
 #container-integrantes {
   display: flex;
   justify-content: center;
   gap: 30px;
   align-items: center;
   margin-block: 2rem;
-
 }
 
 .integrante {
@@ -284,18 +281,15 @@ details[open] .faq-answer {
 .integrantes-info p {
   font-weight: none;
   text-align: center;
-  
 }
 
-.integrantes-link{
+.integrantes-link {
   display: flex;
   gap: 6px;
 }
 
 .integrantes-link .item-social-link img {
   width: 30px;
-
-
 }
 
 /* Página de CONTATOS */
@@ -346,7 +340,6 @@ details[open] .faq-answer {
   
 }
 
-
 #container-inputs input {
   width: 100%;
   max-width: 400px;
@@ -358,7 +351,6 @@ details[open] .faq-answer {
   height: 100px;
   padding: 12px;
   border-radius: 20px;
-
 }
 
 #container-inputs textarea::placeholder {
@@ -380,7 +372,6 @@ form button:hover {
   opacity: 0.6;
   background-color: chartreuse;
   transform: scale(1.05);
-
 }
 
 /* FOOTER */
@@ -466,14 +457,48 @@ form button:hover {
   text-align: center;
 }
 
+.menu-checkbox:checked ~ nav {
+  display: flex;
+}
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+  }
+
+  header nav {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #e2e8f0;
+    flex-direction: column;
+    padding: 1rem 0;
+    border-radius: 0;
+    box-shadow: none;
+    gap: 20px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
   header nav {
     padding: 10px 40px;
   }
 
   header nav ul {
-    gap: 32px;
+    gap: 24px;
+  }
+
+  header nav ul a {
+    font-size: 16px;
   }
 
   #container-image-home img {
@@ -507,110 +532,8 @@ form button:hover {
   }
 }
 
-@media (max-width: 768px) {
-  header {
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .menu-icon {
-    display: block;
-    z-index: 1001;
-
-  }
-
-  header nav {
-    position: absolute;
-    top: 40px;
-    right: 0;
-
-    width: 40%;
-    background-color: #fff;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-    border-radius: 12px;
-    padding: 20px 0;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    z-index: 1000;
-
-    min-width: 110px;
-  }
-
-  header nav ul {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  header nav ul li a {
-    color: #000;
-    font-weight: 500;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-
-
-  .menu-checkbox:checked~nav {
-    display: flex;
-    animation: fadeIn 0.25s ease-in-out;
-  }
-
-  .item-search {
-    display: none;
-  }
-
-  .integrante img {
-    width: 60%;
-  }
-
-  .faq-container {
-    width: 100%;
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border-radius: 0;
-  }
-
-  .faq-question {
-    font-size: 0.95rem;
-  }
-
-  .faq-answer {
-    font-size: 0.85rem;
-  }
+@media (min-width: 992px) {
 }
 
-@media (max-width: 480px) {
-  #container-titles h2 {
-    font-size: 1.2rem;
-  }
-
-  header #logo {
-    width: 50px;
-  }
-
-  #container-image-home {
-    text-align: center;
-  }
-
-  #container-image-home img {
-    width: 90%;
-  }
-
-  #container-about-enterprise button {
-    width: 100%;
-  }
-
-  #container-integrantes {
-    flex-direction: column;
-  }
-
-  footer {
-    padding: 2rem 1rem;
-  }
-
-  .footer-bottom p {
-    font-size: 0.9rem;
-  }
+@media (min-width: 1300px) {
 }
