@@ -300,30 +300,56 @@ details[open] .faq-answer {
 
 /* Página de CONTATOS */
 
-form {
-  margin-block: 2rem;
+.about-container{
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  padding: 2rem;
+  align-items: start;
+  
+}
 
+.about-content h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-column p{
+  text-align:justify ;
+  line-height: 1.6;
+  word-spacing: 1px;
+  letter-spacing: 0.2px;
+  font-size: 0.9rem;
+}
+
+#container-titles h2{
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 #container-inputs {
+  
   display: flex;
   flex-direction: column;
   gap: 10px;
+  
 
 }
 
 #container-inputs input,
-textarea {
-  border: none;
+#container-inputs textarea {
+  border: 2px solid #919090;
   outline: none;
-
+  border-radius: 20px;
+  padding: 10px 15px;
+  
 }
 
 
 #container-inputs input {
-  padding: 8px 20px;
-  width: 400px;
-  border-radius: 25px;
+  width: 100%;
+  max-width: 400px;
 
 }
 
