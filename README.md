@@ -5,6 +5,7 @@
 #### Deploy: https://wwilliamsantana.github.io/page-challenger-enterprise/
 
 Este repositório contém o código-fonte para um projeto web da ONG **"Turma do Bem"**, desenvolvido como parte de uma iniciativa de estudos em Front-End Design Engineering. O site foi criado com o objetivo de apresentar a ONG de forma moderna e acolhedora, utilizando apenas **HTML** e **CSS** na primeira fase.
+Nesta segunda fase implementamos o JavaScript, principalmente na página de contato, onde fazemos a validação dos campos dos form.
 
 O projeto é uma demonstração de como uma interface de usuário pode ser construída de forma estática, com foco no design e na organização do código.
 
