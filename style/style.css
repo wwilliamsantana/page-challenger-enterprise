@@ -142,7 +142,7 @@ main {
 }
 
 .about-container h3 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: #333;
@@ -372,6 +372,14 @@ form button:hover {
   transform: scale(1.05);
 }
 
+.error-span {
+  color: #d9534f;
+  font-size: 14px;
+  display: block;
+  margin-top: -8px;
+  margin-left: 18px;
+}
+
 /* FOOTER */
 
 .footer {
@@ -504,7 +512,7 @@ form button:hover {
   }
 
   #container-image-home img {
-    width: 36rem;
+    width: 38rem;
   }
 
   #container-about-enterprise {
