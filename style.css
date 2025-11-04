@@ -25,23 +25,30 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 header #logo {
   width: 60px;
-  margin-top: -14px;
+}
+
+header aside {
+  display: none;
+}
+
+.item-search {
+  width: 60px;
 }
 
 header nav {
   display: flex;
-  align-items: center;
-  padding: 14px 0.4%;
+  padding: 10px 40px;
   border-radius: 6px;
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   transition: all 0.3s ease;
+  max-width: 450px;
 }
 
 .menu-checkbox {
@@ -294,41 +301,37 @@ details[open] .faq-answer {
 
 /* Página de CONTATOS */
 
-.about-container{
+.about-container {
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr 1fr;
   margin: auto;
   padding: 2rem;
   align-items: start;
-  
 }
 
-.about-content h2{
+.about-content h2 {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.about-column p{
-  text-align:justify ;
+.about-column p {
+  text-align: justify;
   line-height: 1.6;
   word-spacing: 1px;
   letter-spacing: 0.2px;
   font-size: 0.9rem;
 }
 
-#container-titles h2{
+#container-titles h2 {
   text-align: center;
   margin-bottom: 1rem;
 }
 
 #container-inputs {
-  
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
-
 }
 
 #container-inputs input,
@@ -337,13 +340,11 @@ details[open] .faq-answer {
   outline: none;
   border-radius: 20px;
   padding: 10px 15px;
-  
 }
 
 #container-inputs input {
   width: 100%;
   max-width: 400px;
-
 }
 
 #container-inputs textarea {
@@ -463,6 +464,10 @@ form button:hover {
 
 @media (max-width: 600px) {
   .menu-icon {
+    display: block;
+  }
+
+  header aside {
     display: block;
   }
 
