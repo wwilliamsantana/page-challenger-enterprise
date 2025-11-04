@@ -21,7 +21,8 @@ O projeto é uma demonstração de como uma interface de usuário pode ser const
 -   `index.html`: A página inicial do site.
 -   `pages/`: Contém todas as páginas secundárias do projeto.
 -   `assets/`: Armazena todas as imagens e ícones utilizados.
--   `style.css`: A folha de estilo principal que define a aparência de todas as páginas.
+-   `style/style.css`: A folha de estilo principal que define a aparência de todas as páginas.
+-   `js/script.js`: Contém o JavaScript da página.
 
 ## Funcionalidades e Páginas
 
@@ -37,6 +38,7 @@ O site é composto pelas seguintes páginas:
 
 -   **HTML5**: Para estruturar o conteúdo e criar as páginas do site.
 -   **CSS3**: Para estilizar e dar a identidade visual ao projeto, incluindo o uso de fontes.
+-   **JavaScript**: Adicionando interatividade ao elemento <Form/> da página Contantos. Onde há toda verificação dos dados dos input´s
 
 ## Como Rodar o Projeto
 
@@ -74,7 +76,7 @@ Para visualizar o projeto localmente, basta seguir os passos abaixo:
 <img width="70%" alt="Screenshot 2025-10-06 at 22-20-37 ONG - Turma do bem" src="https://github.com/user-attachments/assets/c9190136-7438-4c73-ab6c-5685bde9250a" />
 
 ### Contatos
-<img width="70%" alt="Screenshot 2025-10-06 at 22-21-18 ONG - Turma do bem" src="https://github.com/user-attachments/assets/e8c8134e-8651-4e2f-9cda-3c4f30aedd19" />
+<img width="70%" alt="Screenshot 2025-10-06 at 22-21-18 ONG - Turma do bem" src="https://github.com/user-attachments/assets/f9995f83-7038-4871-9c71-d48b7897c515" />
 
 ### Responsividade 
 <img width="30%" alt="Screenshot 2025-10-09 at 22-20-46 ONG - Turma do bem" src="https://github.com/user-attachments/assets/ce91b618-d379-45fa-a8dc-de94b93453e9" />
@@ -85,9 +87,9 @@ Para visualizar o projeto localmente, basta seguir os passos abaixo:
 O projeto está planejado para evoluir em sprints, conforme descrito na página "Sobre":
 
 -   **Sprint 1**: Conclusão das páginas estáticas com HTML e CSS (Status: ✅ Completo).
--   **Sprint 2**: Adição de interatividade com **JavaScript**.
+-   **Sprint 2**: Adição de interatividade com **JavaScript**.(Status: ✅ Completo).
 -   **Sprint 3**: Implementação de responsividade para dispositivos móveis e tablets.
 
 ---
-<p align="center"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" /> <img src="https://img.shields.io/badge/Status-Concluído%20(Sprint%201)-brightgreen?style=for-the-badge" alt="Status Badge" /></p>
+<p align="center"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" /> <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo%20(Sprint%202)-brightgreen?style=for-the-badge" alt="Status Badge" /></p>
 <p align="center">Feito com ❤️ por Gabriela Takemoto, Ruan Silva e William Santana.</p>
